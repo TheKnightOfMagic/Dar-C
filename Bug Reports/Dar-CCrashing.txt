@@ -1,0 +1,243 @@
+	python3 ~/Desktop/Programming/Python/DarC/DarC.py
+Last login: Fri Feb 23 11:54:08 on ttys000
+MacBook-Air-2:~ liaquats$ python3 ~/Desktop/Programming/Python/DarC/DarC.py
+
+It is Online!
+Name: Dar-C
+ID: 398645531364032513
+/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/giphypop.py:241: UserWarning: You are using the giphy public api key. This should be used for testing only and may be deactivated in the future. See https://github.com/Giphy/GiphyAPI.
+  warnings.warn('You are using the giphy public api key. This '
+Ignoring exception in command gifme
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 183, in gifme
+    await bot.say(img)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 1152, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+Ignoring exception in command gifme
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 183, in gifme
+    await bot.say(img)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 1152, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+Ignoring exception in command gifme
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 183, in gifme
+    await bot.say(img)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 1152, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: HTTPException: BAD REQUEST (status code: 400): Cannot send an empty message
+Ignoring exception in command gifme
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x106834b38>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.giphy.com', port=80): Max retries exceeded with url: /v1/gifs/translate?s=thugisa&api_key=dc6zaTOxFJmzC (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106834b38>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 182, in gifme
+    img = translate(message)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/giphypop.py", line 516, in translate
+    term=term, phrase=phrase, rating=rating)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/giphypop.py", line 365, in translate
+    resp = self._fetch('translate', **params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/giphypop.py", line 262, in _fetch
+    resp = requests.get(self._endpoint(endpoint_name), params=params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.giphy.com', port=80): Max retries exceeded with url: /v1/gifs/translate?s=thugisa&api_key=dc6zaTOxFJmzC (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106834b38>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: ConnectionError: HTTPConnectionPool(host='api.giphy.com', port=80): Max retries exceeded with url: /v1/gifs/translate?s=thugisa&api_key=dc6zaTOxFJmzC (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106834b38>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 183, in gifme
+    await bot.say(img)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 309, in _augmented_msg
+    msg = yield from coro
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 1152, in send_message
+    data = yield from self.http.send_message(channel_id, content, guild_id=guild_id, tts=tts, embed=embed)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 203, in request
+    yield from r.release()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/http.py", line 82, in __exit__
+    self.lock.release()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/locks.py", line 198, in release
+    fut.set_result(True)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/futures.py", line 332, in set_result
+    self._schedule_callbacks()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/futures.py", line 242, in _schedule_callbacks
+    self._loop.call_soon(callback, self)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/base_events.py", line 497, in call_soon
+    handle = self._call_soon(callback, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/base_events.py", line 506, in _call_soon
+    self._check_closed()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/base_events.py", line 334, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 846, in process_commands
+    yield from command.invoke(ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 374, in invoke
+    yield from injected(*ctx.args, **ctx.kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 54, in wrapped
+    raise CommandInvokeError(e) from e
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: RuntimeError: Event loop is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 307, in _run_event
+    yield from getattr(self, event)(*args, **kwargs)
+  File "/Users/liaquats/Desktop/Programming/Python/DarC/DarC.py", line 90, in on_message
+    await bot.process_commands(message)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 848, in process_commands
+    ctx.command.dispatch_error(e, ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/core.py", line 164, in dispatch_error
+    ctx.bot.dispatch('command_error', error, ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/ext/commands/bot.py", line 262, in dispatch
+    super().dispatch(event_name, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py", line 325, in dispatch
+    compat.create_task(self._run_event(method, *args, **kwargs), loop=self.loop)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/tasks.py", line 547, in ensure_future
+    task = loop.create_task(coro_or_future)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/base_events.py", line 259, in create_task
+    self._check_closed()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/asyncio/base_events.py", line 334, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+Task was destroyed but it is pending!
+task: <Task pending coro=<_run_event() running at /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py:307> wait_for=<Future finished result=True>>
+Task was destroyed but it is pending!
+task: <Task pending coro=<_run_event() done, defined at /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/discord/client.py:304> wait_for=<Future pending cb=[Task._wakeup(), BaseSelectorEventLoop._sock_connect_done(12)()]>>
+Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x103940c18>
+MacBook-Air-2:~ liaquats$ 
+MacBook-Air-2:~ liaquats$ https://giphy.com/gifs/sexy-mustache-sasuke-uchiha-MMENT1Kl2nkVq
+-bash: https://giphy.com/gifs/sexy-mustache-sasuke-uchiha-MMENT1Kl2nkVq: No such file or directory
+MacBook-Air-2:~ liaquats$ python3 ~/Desktop/Programming/Python/DarC/DarC.py
+
+It is Online!
+Name: Dar-C
+ID: 398645531364032513
+
